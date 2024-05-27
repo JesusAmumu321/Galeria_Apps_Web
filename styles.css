@@ -8,7 +8,8 @@
 }
 
 .header {
-  background-color: rgba(0, 255, 51, 0.214);
+  background: rgb(0,255,57);
+background: linear-gradient(90deg, rgba(0,255,57,0.8313376375941002) 0%, rgba(151,255,150,0.850945480731355) 100%);
   display: flex;
   justify-content: space-between;
 }
@@ -28,9 +29,17 @@ header {
 }
 
 footer {
-  background-color: rgba(#00ff335a);
+  background: rgb(179, 255, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(179, 255, 0, 0.7865197104232318) 0%,
+    rgba(147, 252, 146, 0.850945480731355) 100%
+  );
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .infoGralImg {
@@ -55,7 +64,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid black;
 }
 
 .row {
@@ -63,13 +71,14 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
 }
 
 .imgMedio {
   margin: 1vw;
-  width: 25vw;
-  max-width: 40%;
-  height: auto;
+  width: 250px;
+  max-width: 250px;
+  height: 250px;
 }
 
 #contacto {
