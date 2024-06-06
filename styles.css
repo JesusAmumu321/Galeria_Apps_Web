@@ -60,9 +60,16 @@ footer {
   width: 5%;
 }
 
-.galeriaImagenes {
+.galeriaImagenes{
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+#autor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
